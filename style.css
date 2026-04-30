@@ -1,0 +1,29 @@
+body { text-align: center; font-family: Arial; }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: opacity 0.5s;
+}
+
+.card img { width: 80px; }
+
+.dot {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.dot.active { background: #333; }
