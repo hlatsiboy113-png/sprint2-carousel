@@ -1,7 +1,7 @@
 # Sprint 2 – Interactive JS Component (Carousel)
 
 ## Project Overview
-This project is a **vanilla JavaScript image carousel** displaying different web development languages. It provides users  to navigate through items using the previous and next buttons.
+This project is a **vanilla JavaScript image carousel** displaying different web development languages. It provides users with access to navigate items using the previous and next buttons.
 
 The goal of this project is to demonstrate:
 - Separation of concerns (Data, UI, Logic)
