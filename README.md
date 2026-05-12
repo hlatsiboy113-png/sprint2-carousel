@@ -38,7 +38,7 @@ The goal of this project is to demonstrate:
 - Resets carousel when input is empty (if search is implemented)
 - Prevents application crashes on invalid states
 
----
+
 
 ## How It Works
 
@@ -55,6 +55,6 @@ The goal of this project is to demonstrate:
    - Buttons update `currentIndex.`
    - UI re-renders on every interaction
 
----
+
 
 ##  Project Structure
