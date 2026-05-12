@@ -1,7 +1,7 @@
-# 🎯 Sprint 2 – Interactive JS Component (Carousel)
+# Sprint 2 – Interactive JS Component (Carousel)
 
-## 📌 Project Overview
-This project is a **vanilla JavaScript image carousel** that displays different web development languages. It allows users to navigate through items using previous and next buttons.
+## Project Overview
+This project is a **vanilla JavaScript image carousel** displaying different web development languages. It provides users  to navigate through items using the previous and next buttons.
 
 The goal of this project is to demonstrate:
 - Separation of concerns (Data, UI, Logic)
@@ -9,18 +9,18 @@ The goal of this project is to demonstrate:
 - Handling of edge cases
 - Writing maintainable and readable JavaScript
 
----
+*****
 
-## 🚀 Features
+## Features
 
-### ✅ Data Layer
+### Data Layer
 - Structured `languages` array
 - Each item includes:
   - name
   - image
   - description
 
-### ✅ UI Layer
+### UI Layer
 - Carousel layout with:
   - Image
   - Title
@@ -28,19 +28,19 @@ The goal of this project is to demonstrate:
 - Navigation buttons (Next / Previous)
 - Clean and responsive styling
 
-### ✅ Navigation Logic
+### Navigation Logic
 - Next and Previous buttons update the current item
 - Uses `currentIndex` state
 - Wrap-around logic using modulus operator
 
-### ✅ Edge Case Handling
+### Edge Case Handling
 - Displays **"No results found"** if no data is available
 - Resets carousel when input is empty (if search is implemented)
 - Prevents application crashes on invalid states
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Data**
    - Stored in an array of objects (`languages`)
@@ -52,9 +52,9 @@ The goal of this project is to demonstrate:
    - `renderLanguage(index)` updates the DOM with the selected item
 
 4. **Event Handling**
-   - Buttons update `currentIndex`
+   - Buttons update `currentIndex.`
    - UI re-renders on every interaction
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
